@@ -1,29 +1,19 @@
-# vue_demo
+# 用于演示的DEMO
 
-## Project setup
-```
-npm install
-```
+## 依赖包安装:
 
-### Compiles and hot-reloads for development
+1、安装node(最新稳定版 10.x);
+
+2、npm install
+
+## webpack 编译
+
+1、开发
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+ 
+2、 线上
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
