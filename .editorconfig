@@ -1,0 +1,35 @@
+# 表示对顶层的配置文件，发现 root = true 时停止查找 .editorconfig 文件
+root = true
+
+# 对所有文件生效
+[*]
+# 编码格式 UTF-8
+charset = utf-8
+# 使用空格缩进
+indent_style = space
+# 使用 2 个空格缩进
+indent_size = 2
+# 使用 lf 做为换行符
+end_of_line = lf
+# 文件以一个空白行结尾
+insert_final_newline = true
+# 删除行尾的多余空白字符
+trim_trailing_whitespace = true
+
+# .css, .scss, .json, .html 使用下面的配置
+[*.{css,scss,json,html}]
+# 使用 2 个空格缩进
+indent_size = 2
+
+# .travis.yml 文件
+[.travis.yml]
+# 使用 2 个空格缩进
+indent_size = 2
+
+# .md 文件使用下面的配置
+[*.md]
+# 不删除每行末尾的任意空白字符
+trim_trailing_whitespace = false
+
+[*.{js,vue}]
+quote_type = single

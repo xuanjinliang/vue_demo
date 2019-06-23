@@ -1,0 +1,36 @@
+@import "est/src/all.less";
+
+.global-normalize();
+
+body{
+  overflow: hidden;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+#app{
+  height: 100%;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+@fontColor: rgba(0, 0, 0, 0.85);
+
+.minxinCenter(){
+  .absolute(50%, _, _, 50%);
+  .translate(-50%,-50%);
+}
+
+.minxinCenterX(){
+  .absolute(_, _, _, 50%);
+  .translateX(-50%);
+}
+
+.minxinCenterY(){
+  .absolute(50%, _, _, _);
+  .translateY(-50%);
+}
